@@ -1,0 +1,11 @@
+framework module DBDebugToolkit {
+  umbrella header "DBDebugToolkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DBDebugToolkit.Swift {
+  header "DBDebugToolkit-Swift.h"
+  requires objc
+}
